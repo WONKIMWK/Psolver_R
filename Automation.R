@@ -5,7 +5,7 @@
 # ---------------------------------------------------------
 # Contact Information--------------------------------
 
-# Modified    : 
+# Modified    : Mar 20, 2023
 # Created     : Oct 08, 2023
 # Author      : Wonjong Kim
 # Affiliation : University of Alabama
@@ -18,9 +18,9 @@ if(!require("tidyverse")) install.packages("tidyverse")
 if(!require("kableExtra")) install.packages("kableExtra")
 if(!require("stargazer")) install.packages("stargazer")
 
-library(tidyverse)
-library(kableExtra)
-library(stargazer)
+library(tidyverse) # Including all basic packages, such as dplyr
+library(kableExtra) # To make a LaTex table
+library(stargazer) # To make a LaTex table easier
 
 # Check Dataset -----------------------------------------------------
 ## 'mpg' data (fuel economy data subset) are included in 'ggplot2'
