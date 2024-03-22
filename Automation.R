@@ -48,6 +48,13 @@ Grp.add <- Grp +
 
 print(Grp.add)
 
+### If you need a greyscale graph
+Grp.bw <- Grp.add +
+  theme_bw() + #Black and white background
+  scale_color_grey(labels = c("4", "Front", "Rear")) # Greyscale
+
+print(Grp.bw)
+
 ## Save the result 
 ### use ggsave() after print the result
 
